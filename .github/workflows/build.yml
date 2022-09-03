@@ -4,6 +4,8 @@ on:
     branches: [opensource]
   pull_request:
     branches: [opensource]
+  release:
+    types: [published]
   workflow_dispatch:
 
 jobs:
@@ -21,3 +23,11 @@ jobs:
         with:
           name: BetterDisplay.dmg
           path: BetterDisplay.dmg
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        if: github.event_name == 'release'
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: BetterDisplay.dmg
+          tag: ${{ github.ref }}
+          file_glob: true

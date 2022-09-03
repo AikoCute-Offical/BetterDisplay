@@ -4,9 +4,9 @@ on:
     branches: [opensource]
   pull_request:
     branches: [opensource]
+  workflow_dispatch:
   release:
     types: [published]
-  workflow_dispatch:
 
 jobs:
   build:

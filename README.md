@@ -3,7 +3,7 @@
 <div>
 <h2>BetterDisplay</h2>
 <p>Display Management, Custom Resolutions, Brightness Adjustment and Dummy Displays for Macs - a menubar app from one of the makers of <a href="https://github.com/MonitorControl/MonitorControl">MonitorControl</a>.<p>
-<a href="https://github.com/AikoCute-Offical/BetterDisplay/releases/download/v0.0.1/BetterDisplay-v0.0.1.dmg"><img src=".github/macos_badge_noborder.png" width="175" alt="Download for macOS"/></a>
+<a href="https://github.com/AikoCute-Offical/BetterDisplay/releases/download/v0.0.7/BetterDisplay.dmg"><img src=".github/macos_badge_noborder.png" width="175" alt="Download for macOS"/></a>
 </div>
 
 <br />

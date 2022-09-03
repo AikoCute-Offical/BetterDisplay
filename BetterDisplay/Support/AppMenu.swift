@@ -67,7 +67,7 @@ class AppMenu {
     let updateItem = NSMenuItem(title: "Check for updates...", action: #selector(app.updaterController.checkForUpdates(_:)), keyEquivalent: "")
     updateItem.target = app.updaterController
     self.appMenu.addItem(updateItem)
-    self.appMenu.addItem(NSMenuItem(title: "Donate...", action: #selector(app.donate(_:)), keyEquivalent: ""))
+    self.appMenu.addItem(NSMenuItem(title: "Donate for Aiko", action: #selector(app.donate(_:)), keyEquivalent: ""))
     self.appMenu.addItem(NSMenuItem.separator())
     self.appMenu.addItem(NSMenuItem(title: "Quit BetterDisplay", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
   }

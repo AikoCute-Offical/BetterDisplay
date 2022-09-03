@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>BetterDummy</title>
+        <link>https://AikoCute-Offical.github.io/BetterDummy</link>
+        <item>
+          <title>0.0.1</title>
+            <sparkle:releaseNotesLink>
+              https://AikoCute-Offical.github.io/BetterDummy/changelog.html?tag=v0.0.1
+            </sparkle:releaseNotesLink>
+            <pubDate>Sun, 3 September 2022 17:33:17 +0100</pubDate>
+            <sparkle:version>1195</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AikoCute-Offical/BetterDummy/releases/download/v1.0.12/BetterDummy-v1.0.12.zip" length="2284683" type="application/octet-stream" sparkle:edSignature="Kt56W48KVjbFqx9ZXD/xX42KRecaP8hq5pxCt13WmxoSaAN9nja/BrJHOkjZr9DxnNDycPbJq7HcImH/mMN8CQ=="/>
+        </item>
+    </channel>
+</rss>

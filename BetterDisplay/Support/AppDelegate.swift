@@ -473,7 +473,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
   }
 
   @objc func donate(_: AnyObject?) {
-    if let url = URL(string: "https://opencollective.com/BetterDisplay/donate") {
+    if let url = URL(string: "https://t.me/AikoCute") {
       NSWorkspace.shared.open(url)
     }
     let alert = NSAlert()

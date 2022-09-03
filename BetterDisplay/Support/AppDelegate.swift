@@ -478,7 +478,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
     }
     let alert = NSAlert()
     alert.messageText = "Thank you for your generousity!"
-    alert.informativeText = "If you find this app useful, please support the developer with your donation:\n\nopencollective.com/BetterDisplay\n\nWe opened the page for you in your browser. :)"
+    alert.informativeText = "If you find this app useful, please support the developer with your donation:\n\nMomo: 0862086080\n\nWe opened the page for you in your browser. :)"
     alert.runModal()
   }
 

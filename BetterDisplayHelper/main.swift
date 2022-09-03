@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BetterDummyHelper
+//  BetterDisplayHelper
 //
 //  Created by @AikoCute-Offical
 //

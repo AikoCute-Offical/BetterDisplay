@@ -1,5 +1,5 @@
 //
-//  BetterDummy
+//  BetterDisplay
 //
 //  Created by @AikoCute-Offical
 //

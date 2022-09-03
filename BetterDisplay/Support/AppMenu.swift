@@ -1,5 +1,5 @@
 //
-//  BetterDummy
+//  BetterDisplay
 //
 //  Created by @AikoCute-Offical
 //
@@ -69,7 +69,7 @@ class AppMenu {
     self.appMenu.addItem(updateItem)
     self.appMenu.addItem(NSMenuItem(title: "Donate...", action: #selector(app.donate(_:)), keyEquivalent: ""))
     self.appMenu.addItem(NSMenuItem.separator())
-    self.appMenu.addItem(NSMenuItem(title: "Quit BetterDummy", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+    self.appMenu.addItem(NSMenuItem(title: "Quit BetterDisplay", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
   }
 
   func populateSettingsMenu() {
@@ -109,8 +109,8 @@ class AppMenu {
     // ---
 
     self.settingsMenu.addItem(NSMenuItem.separator())
-    self.settingsMenu.addItem(NSMenuItem(title: "About BetterDummy", action: #selector(app.about(_:)), keyEquivalent: ""))
-    self.settingsMenu.addItem(NSMenuItem(title: "Reset BetterDummy", action: #selector(app.reset(_:)), keyEquivalent: ""))
+    self.settingsMenu.addItem(NSMenuItem(title: "About BetterDisplay", action: #selector(app.about(_:)), keyEquivalent: ""))
+    self.settingsMenu.addItem(NSMenuItem(title: "Reset BetterDisplay", action: #selector(app.reset(_:)), keyEquivalent: ""))
   }
 
   func populateNewMenu() {

@@ -35,7 +35,7 @@
 	<key>SUEnableJavaScript</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>https://AikoCute-Offical.github.io/BetterDummy/appcast.xml</string>
+	<string>https://AikoCute-Offical.github.io/BetterDisplay/appcast.xml</string>
 	<key>SUPublicEDKey</key>
 	<string>ITSTMp8AypsLawojJ+UR3tm2mN18AFoNMvXf1G3t62s=</string>
 </dict>

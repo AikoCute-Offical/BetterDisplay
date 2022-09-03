@@ -1,5 +1,5 @@
 //
-//  BetterDummy
+//  BetterDisplay
 //
 //  Created by @AikoCute-Offical
 //
@@ -37,7 +37,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
   func applicationShouldHandleReopen(_: NSApplication, hasVisibleWindows _: Bool) -> Bool {
     let alert = NSAlert()
     alert.alertStyle = .informational
-    alert.messageText = "BetterDummy is already running!"
+    alert.messageText = "BetterDisplay is already running!"
     if prefs.bool(forKey: PrefKey.hideMenuIcon.rawValue) || self.menu.statusBarItem.isVisible == false {
       self.menu.statusBarItem.isVisible = true
       prefs.set(true, forKey: PrefKey.hideMenuIcon.rawValue)
@@ -45,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
       self.menu.populateSettingsMenu()
       alert.informativeText = "The menu icon was hidden but it is now set to visible. You can hide it again in Settings."
     } else {
-      alert.informativeText = "To configure the app, use the BetterDummy menu icon in the macOS menu bar!"
+      alert.informativeText = "To configure the app, use the BetterDisplay menu icon in the macOS menu bar!"
     }
     alert.runModal()
     return true
@@ -357,7 +357,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
   @objc func reset(_: AnyObject?) {
     let alert = NSAlert()
     alert.alertStyle = .critical
-    alert.messageText = "Are sure you want to reset BetterDummy?"
+    alert.messageText = "Are sure you want to reset BetterDisplay?"
     alert.informativeText = "This restores the default settings and discards all dummies in the process."
     alert.addButton(withTitle: "Cancel")
     alert.addButton(withTitle: "Reset")
@@ -440,13 +440,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") ?? "UNKNOWN"
     let year = Calendar.current.component(.year, from: Date())
     let alert = NSAlert()
-    alert.messageText = "About BetterDummy"
+    alert.messageText = "About BetterDisplay"
     alert.informativeText = "Version \(version) Build \(build)\n\nCopyright Ⓒ \(year) @AikoCute-Offical.\n\nCheck out the GitHub page for instructions or to report issues!"
     alert.addButton(withTitle: "Visit GitHub page")
     alert.addButton(withTitle: "OK")
     alert.alertStyle = NSAlert.Style.informational
     if alert.runModal() == .alertFirstButtonReturn {
-      if let url = URL(string: "https://github.com/AikoCute-Offical/BetterDummy#readme") {
+      if let url = URL(string: "https://github.com/AikoCute-Offical/BetterDisplay#readme") {
         NSWorkspace.shared.open(url)
       }
     }
@@ -473,12 +473,12 @@ class AppDelegate: NSObject, NSApplicationDelegate, SPUUpdaterDelegate {
   }
 
   @objc func donate(_: AnyObject?) {
-    if let url = URL(string: "https://opencollective.com/betterdummy/donate") {
+    if let url = URL(string: "https://opencollective.com/BetterDisplay/donate") {
       NSWorkspace.shared.open(url)
     }
     let alert = NSAlert()
     alert.messageText = "Thank you for your generousity!"
-    alert.informativeText = "If you find this app useful, please support the developer with your donation:\n\nopencollective.com/betterdummy\n\nWe opened the page for you in your browser. :)"
+    alert.informativeText = "If you find this app useful, please support the developer with your donation:\n\nopencollective.com/BetterDisplay\n\nWe opened the page for you in your browser. :)"
     alert.runModal()
   }
 

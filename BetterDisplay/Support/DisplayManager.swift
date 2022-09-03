@@ -1,5 +1,5 @@
 //
-//  BetterDummy
+//  BetterDisplay
 //
 //  Created by @AikoCute-Offical
 //
@@ -91,7 +91,7 @@ class DisplayManager {
     let rawName = DisplayManager.getDisplayNameByID(displayID: displayID)
     var isDummy: Bool = false
     if rawName.lowercased().contains("dummy") {
-      os_log("Display seems to be a BetterDummy created dummy.", type: .info)
+      os_log("Display seems to be a BetterDisplay created dummy.", type: .info)
       isDummy = true
     }
     return isDummy

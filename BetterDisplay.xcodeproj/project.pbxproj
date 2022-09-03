@@ -30,7 +30,7 @@
 		AA8AA0AE272552E600F66F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA8AA0AD272552E600F66F8A /* README.md */; };
 		AA964A8C2729C67F0064F7C7 /* PrefKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA964A8B2729C67F0064F7C7 /* PrefKey.swift */; };
 		AAA2D676272BF77200F71CF0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2D675272BF77200F71CF0 /* main.swift */; };
-		AAA2D68A272BFC7E00F71CF0 /* BetterDummyHelper.app in Copy Helper to start at Login */ = {isa = PBXBuildFile; fileRef = AAA2D673272BF77200F71CF0 /* BetterDummyHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAA2D68A272BFC7E00F71CF0 /* BetterDisplayHelper.app in Copy Helper to start at Login */ = {isa = PBXBuildFile; fileRef = AAA2D673272BF77200F71CF0 /* BetterDisplayHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AACBDF4827308B060087638C /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBDF4727308B060087638C /* DisplayManager.swift */; };
 		BEB26A432530B2F600744C86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB26A422530B2F600744C86 /* main.swift */; };
 		BEB26A472530B2F700744C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB26A462530B2F700744C86 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
-				AAA2D68A272BFC7E00F71CF0 /* BetterDummyHelper.app in Copy Helper to start at Login */,
+				AAA2D68A272BFC7E00F71CF0 /* BetterDisplayHelper.app in Copy Helper to start at Login */,
 			);
 			name = "Copy Helper to start at Login";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,16 +72,16 @@
 		AA59EAB42728911900B7C833 /* DummyDefinition.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = DummyDefinition.swift; sourceTree = "<group>"; };
 		AA8AA0AD272552E600F66F8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA964A8B2729C67F0064F7C7 /* PrefKey.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = PrefKey.swift; sourceTree = "<group>"; };
-		AAA2D673272BF77200F71CF0 /* BetterDummyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDummyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA2D673272BF77200F71CF0 /* BetterDisplayHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDisplayHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA2D675272BF77200F71CF0 /* main.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AAA2D67E272BF77300F71CF0 /* BetterDummyHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterDummyHelper.entitlements; sourceTree = "<group>"; };
+		AAA2D67E272BF77300F71CF0 /* BetterDisplayHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterDisplayHelper.entitlements; sourceTree = "<group>"; };
 		AAA2D682272BF86800F71CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AACBDF4727308B060087638C /* DisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayManager.swift; sourceTree = "<group>"; };
-		BEB26A3F2530B2F600744C86 /* BetterDummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB26A3F2530B2F600744C86 /* BetterDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB26A422530B2F600744C86 /* main.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BEB26A462530B2F700744C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB26A4E2530B2F700744C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEB26A4F2530B2F700744C86 /* BetterDummy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterDummy.entitlements; sourceTree = "<group>"; };
+		BEB26A4F2530B2F700744C86 /* BetterDisplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterDisplay.entitlements; sourceTree = "<group>"; };
 		BEB26A772531163C00744C86 /* Bridging-Header.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,10 +134,10 @@
 			path = styles;
 			sourceTree = "<group>";
 		};
-		AA1861802728A46E0095590C /* BetterDummy */ = {
+		AA1861802728A46E0095590C /* BetterDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				BEB26A4F2530B2F700744C86 /* BetterDummy.entitlements */,
+				BEB26A4F2530B2F700744C86 /* BetterDisplay.entitlements */,
 				BEB26A462530B2F700744C86 /* Assets.xcassets */,
 				BEB26A4E2530B2F700744C86 /* Info.plist */,
 				BEB26A772531163C00744C86 /* Bridging-Header.h */,
@@ -147,7 +147,7 @@
 				AA457C6A2736E30F002018C1 /* Enums */,
 				AA457C6B2736E321002018C1 /* Extensions */,
 			);
-			path = BetterDummy;
+			path = BetterDisplay;
 			sourceTree = "<group>";
 		};
 		AA1DBA86276A5BB2009834B1 /* Frameworks */ = {
@@ -196,14 +196,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		AAA2D674272BF77200F71CF0 /* BetterDummyHelper */ = {
+		AAA2D674272BF77200F71CF0 /* BetterDisplayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				AAA2D67E272BF77300F71CF0 /* BetterDummyHelper.entitlements */,
+				AAA2D67E272BF77300F71CF0 /* BetterDisplayHelper.entitlements */,
 				AAA2D682272BF86800F71CF0 /* Info.plist */,
 				AAA2D675272BF77200F71CF0 /* main.swift */,
 			);
-			path = BetterDummyHelper;
+			path = BetterDisplayHelper;
 			sourceTree = "<group>";
 		};
 		BEB26A362530B2F600744C86 = {
@@ -216,8 +216,8 @@
 				AA162C16272C31F0003CFC89 /* .swift-version */,
 				AA162C14272C3155003CFC89 /* .swiftformat */,
 				AA162C12272C313E003CFC89 /* .swiftlint.yml */,
-				AA1861802728A46E0095590C /* BetterDummy */,
-				AAA2D674272BF77200F71CF0 /* BetterDummyHelper */,
+				AA1861802728A46E0095590C /* BetterDisplay */,
+				AAA2D674272BF77200F71CF0 /* BetterDisplayHelper */,
 				BEB26A402530B2F600744C86 /* Products */,
 			);
 			indentWidth = 2;
@@ -226,8 +226,8 @@
 		BEB26A402530B2F600744C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEB26A3F2530B2F600744C86 /* BetterDummy.app */,
-				AAA2D673272BF77200F71CF0 /* BetterDummyHelper.app */,
+				BEB26A3F2530B2F600744C86 /* BetterDisplay.app */,
+				AAA2D673272BF77200F71CF0 /* BetterDisplayHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAA2D672272BF77200F71CF0 /* BetterDummyHelper */ = {
+		AAA2D672272BF77200F71CF0 /* BetterDisplayHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA2D681272BF77300F71CF0 /* Build configuration list for PBXNativeTarget "BetterDummyHelper" */;
+			buildConfigurationList = AAA2D681272BF77300F71CF0 /* Build configuration list for PBXNativeTarget "BetterDisplayHelper" */;
 			buildPhases = (
 				AAA2D66F272BF77200F71CF0 /* Sources */,
 				AAA2D670272BF77200F71CF0 /* Frameworks */,
@@ -247,14 +247,14 @@
 			);
 			dependencies = (
 			);
-			name = BetterDummyHelper;
-			productName = BetterDummyHelper;
-			productReference = AAA2D673272BF77200F71CF0 /* BetterDummyHelper.app */;
+			name = BetterDisplayHelper;
+			productName = BetterDisplayHelper;
+			productReference = AAA2D673272BF77200F71CF0 /* BetterDisplayHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEB26A3E2530B2F600744C86 /* BetterDummy */ = {
+		BEB26A3E2530B2F600744C86 /* BetterDisplay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEB26A522530B2F700744C86 /* Build configuration list for PBXNativeTarget "BetterDummy" */;
+			buildConfigurationList = BEB26A522530B2F700744C86 /* Build configuration list for PBXNativeTarget "BetterDisplay" */;
 			buildPhases = (
 				AA162C0E272C3072003CFC89 /* SwiftFormat */,
 				AA162C0F272C309C003CFC89 /* SwiftLint */,
@@ -268,12 +268,12 @@
 			);
 			dependencies = (
 			);
-			name = BetterDummy;
+			name = BetterDisplay;
 			packageProductDependencies = (
 				AA162C2C272C63DC003CFC89 /* Sparkle */,
 			);
-			productName = BetterDummy;
-			productReference = BEB26A3F2530B2F600744C86 /* BetterDummy.app */;
+			productName = BetterDisplay;
+			productReference = BEB26A3F2530B2F600744C86 /* BetterDisplay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEB26A3A2530B2F600744C86 /* Build configuration list for PBXProject "BetterDummy" */;
+			buildConfigurationList = BEB26A3A2530B2F600744C86 /* Build configuration list for PBXProject "BetterDisplay" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,8 +310,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEB26A3E2530B2F600744C86 /* BetterDummy */,
-				AAA2D672272BF77200F71CF0 /* BetterDummyHelper */,
+				BEB26A3E2530B2F600744C86 /* BetterDisplay */,
+				AAA2D672272BF77200F71CF0 /* BetterDisplayHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -438,14 +438,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_ENTITLEMENTS = BetterDummyHelper/BetterDummyHelper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterDisplayHelper/BetterDisplayHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 299YSU96J7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BetterDummyHelper/Info.plist;
+				INFOPLIST_FILE = BetterDisplayHelper/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT Licensed, 2021.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -455,7 +455,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDummyHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDisplayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -469,14 +469,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_ENTITLEMENTS = BetterDummyHelper/BetterDummyHelper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterDisplayHelper/BetterDisplayHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 299YSU96J7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BetterDummyHelper/Info.plist;
+				INFOPLIST_FILE = BetterDisplayHelper/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT Licensed, 2021.";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -486,7 +486,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDummyHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDisplayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -614,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BetterDummy/BetterDummy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterDisplay/BetterDisplay.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -624,7 +624,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = include;
-				INFOPLIST_FILE = BetterDummy/Info.plist;
+				INFOPLIST_FILE = BetterDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -632,10 +632,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.13;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDummy;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "BetterDummy/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetterDisplay/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.5;
 			};
@@ -646,7 +646,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = BetterDummy/BetterDummy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BetterDisplay/BetterDisplay.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -656,7 +656,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = include;
-				INFOPLIST_FILE = BetterDummy/Info.plist;
+				INFOPLIST_FILE = BetterDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -664,10 +664,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.13;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
-				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDummy;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AikoCute-Offical.BetterDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "BetterDummy/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BetterDisplay/Bridging-Header.h";
 				SWIFT_VERSION = 5.5;
 			};
 			name = Release;
@@ -675,7 +675,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAA2D681272BF77300F71CF0 /* Build configuration list for PBXNativeTarget "BetterDummyHelper" */ = {
+		AAA2D681272BF77300F71CF0 /* Build configuration list for PBXNativeTarget "BetterDisplayHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA2D67F272BF77300F71CF0 /* Debug */,
@@ -684,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEB26A3A2530B2F600744C86 /* Build configuration list for PBXProject "BetterDummy" */ = {
+		BEB26A3A2530B2F600744C86 /* Build configuration list for PBXProject "BetterDisplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB26A502530B2F700744C86 /* Debug */,
@@ -693,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEB26A522530B2F700744C86 /* Build configuration list for PBXNativeTarget "BetterDummy" */ = {
+		BEB26A522530B2F700744C86 /* Build configuration list for PBXNativeTarget "BetterDisplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB26A532530B2F700744C86 /* Debug */,
